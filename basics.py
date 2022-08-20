@@ -830,6 +830,87 @@ cities = {'city1': 'HYD', 'city2': 'LAHORE', 'city3': 'KARACHI'}
 # p1.add_contacts(c2)
 # p1.show_contacts()
 
+
+
+# class Person:
+#     def __init__(self):  # magicFunctions   #  init = initialization # constructor
+#         self.name = ""
+#         self.nationality = ""
+#         self.age = 0
+#
+#     def walk(self):
+#         print("I'm walking")
+#
+#     def eat(self):
+#         print("I am eating")
+#
+#     def work(self):
+#         print("I am working")
+#
+# p1 = Person()
+# p2 = Person()
+# p3 = Person()
+# p1.name = "Hina"
+# print(p1.name)
+# p1.age = 20
+# print(p1.age)
+# p1.nationality = "Pakistani"
+# print(p1.nationality)
+# p1.walk()
+
+# access specifiers
+# __private, _protected, without: public
+
+# class Person:
+#     def __init__(self, name, age):
+#         self._name = name
+#         self._age = age
+#
+#     def show(self):
+#         print(self._name, self._age)
+#
+#
+# class Employee(Person):
+#     def __init__(self, _name, _age, salary):
+#         self._salary = salary
+#
+#     def show(self):
+#         print(self._name)
+#         print(self._salary)
+#
+#
+# p = Employee("Hinna", 20, 28000)
+# p.show()
+# p1 = Employee("Talha", 21, 31000)
+# p1.show()
+# import math
+#
+#
+# class Shape:
+#     def __init__(self):
+#         self._x = 26
+#         self._y = 19
+#
+#     def show(self):
+#         pass
+#
+#     def getArea(self):
+#         print(float(self._x * self._y))
+#
+#
+# class Circle(Shape):
+#     def __init__(self):
+#         self.radius = 26.19
+#
+#     def getArea(self, radius):
+#         print("the area of circle is: ", math.pi * self.radius * self.radius)
+#
+#
+# p = Circle()
+# p.getArea()
+
+
+
 # File Handling
 # modes
 # r- read, w- write, a- append, x- create new file.
